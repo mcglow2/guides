@@ -16,7 +16,7 @@ cd $current_dir
 
 for containername in $containernamesarray
 do
-    inputfolder="/cluster/tufts/biocontainers/modules/$containername/"
+    inputfolder="$repo_path/source/bio/modules/$containername/"
 
     outputfile="$sourcefolder$containername/$containername.rst"
     echo "~~~~~~~~" > tempfile.rst

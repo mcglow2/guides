@@ -9,7 +9,7 @@ cd ../../../ # go up to the repo parent directory
 repo_path="$PWD" # assign path to repo_path
 cd $current_dir # cd back to current directory
 
-biocontainers="/cluster/tufts/biocontainers/modules/"
+biocontainers="$repo_path/source/bio/modules/"
 gitfolders="$repo_path/source/bio/apps/"
 echo $gitfolders
 diff -q $gitfolders $biocontainers | grep "Only in" > tempfile.txt

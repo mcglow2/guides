@@ -1,156 +1,29 @@
+---
+tags: bioinformatics
+---
 # Bioinformatics
+Welcome to the users guides designed to enhance your understanding and skills in running bioinformatics analysis on Tufts HPC. 
 
-This document provides a comprehensive list of tutorials and workshops related to bioinformatics offered at Tufts as well as installed bioinformatics applications at Tufts HPC. These resources are designed to enhance your understanding and skills in various bioinformatics applications. 
+```{gallery-grid}
+:grid-columns: 1
+:grid-rows: 16
 
-## Bioinformatics tutorials
+- header: "{fas}`dna;pst-color-primary` 01 Bioinformatics tutorials"
+  content: "Step-by-step guidance on using computational tools and techniques to analyze biological data using HPC."
+  link: "tutorials/index.html"
 
-  - [Bioinformatics tools guide](tutorials/Bioinformatics_tools_guide.md)
-  - [Parallel read alignment with slurm](tutorials/Parallel_read_alignment_with_slurm.md)
-  - [Running nfcore pipelines at Tufts HPC](tutorials/Running_nfcore_pipelines_at_Tufts_HPC.md)
-  - [Using singularity in bioinformatics](tutorials/Using_singularity_in_bioinformatics.md)
+- header: "{fas}`dna;pst-color-primary` 02 Bioinformatics workshops"
+  content: "Training workshops on bioinformatics provided by Tufts Research Technology."
+  link: "workshops/index.html"
 
-## Bioinformatics workshops
+- header: "{fas}`dna;pst-color-primary` 03 Reference databases"
+  content: "A set of centrally-maintained bioinformatics reference databases."
+  link: "databases/index.html"
 
-### 2024
-  - [Introduction to Alphafold2](workshops/2024/Introduction_to_Alphafold2/00_introduction.md)
-  - [Introduction to nextflow and nf-core](workshops/2024/Introduction_to_nextflow_and_nf-core/00_introduction.md)
+- header: "{fas}`dna;pst-color-primary` 04 Bioinformatics applications"
+  content: "Bioinformaitcs applications deployed on Tufts HPC."
+  link: "apps/index.html"
 
-## Bioinformatics applications
-
-  - [abcreg](apps/abcreg/abcreg.rst)
-  - [abyss](apps/abyss/abyss.rst)
-  - [alphafold](apps/alphafold/alphafold.rst)
-  - [amplify](apps/amplify/amplify.rst)
-  - [angsd](apps/angsd/angsd.rst)
-  - [bakta](apps/bakta/bakta.rst)
-  - [bbmap](apps/bbmap/bbmap.rst)
-  - [bbtools](apps/bbtools/bbtools.rst)
-  - [bcftools](apps/bcftools/bcftools.rst)
-  - [beast2](apps/beast2/beast2.rst)
-  - [bedops](apps/bedops/bedops.rst)
-  - [bedtools](apps/bedtools/bedtools.rst)
-  - [biobakery_workflows](apps/biobakery_workflows/biobakery_workflows.rst)
-  - [biopython](apps/biopython/biopython.rst)
-  - [blast](apps/blast/blast.rst)
-  - [bowtie2](apps/bowtie2/bowtie2.rst)
-  - [breseq](apps/breseq/breseq.rst)
-  - [busco](apps/busco/busco.rst)
-  - [cactus](apps/cactus/cactus.rst)
-  - [canu](apps/canu/canu.rst)
-  - [cellprofiler](apps/cellprofiler/cellprofiler.rst)
-  - [cellprofiler-analyst](apps/cellprofiler-analyst/cellprofiler-analyst.rst)
-  - [cellranger](apps/cellranger/cellranger.rst)
-  - [cellranger-atac](apps/cellranger-atac/cellranger-atac.rst)
-  - [cellrank](apps/cellrank/cellrank.rst)
-  - [cufflinks](apps/cufflinks/cufflinks.rst)
-  - [cutadapt](apps/cutadapt/cutadapt.rst)
-  - [diamond](apps/diamond/diamond.rst)
-  - [dorado](apps/dorado/dorado.rst)
-  - [dragon_ora](apps/dragon_ora/dragon_ora.rst)
-  - [exonerate](apps/exonerate/exonerate.rst)
-  - [fasta3](apps/fasta3/fasta3.rst)
-  - [fastp](apps/fastp/fastp.rst)
-  - [fastqc](apps/fastqc/fastqc.rst)
-  - [fastspar](apps/fastspar/fastspar.rst)
-  - [fasttree](apps/fasttree/fasttree.rst)
-  - [filtlong](apps/filtlong/filtlong.rst)
-  - [flye](apps/flye/flye.rst)
-  - [fqtk](apps/fqtk/fqtk.rst)
-  - [gatk4](apps/gatk4/gatk4.rst)
-  - [geomx_ngs_pipeline](apps/geomx_ngs_pipeline/geomx_ngs_pipeline.rst)
-  - [guppy](apps/guppy/guppy.rst)
-  - [hap.py](apps/hap.py/hap.py.rst)
-  - [hisat2](apps/hisat2/hisat2.rst)
-  - [hmmer](apps/hmmer/hmmer.rst)
-  - [homer](apps/homer/homer.rst)
-  - [htseq](apps/htseq/htseq.rst)
-  - [humann](apps/humann/humann.rst)
-  - [impute2](apps/impute2/impute2.rst)
-  - [iqtree2](apps/iqtree2/iqtree2.rst)
-  - [kallisto](apps/kallisto/kallisto.rst)
-  - [kneaddata](apps/kneaddata/kneaddata.rst)
-  - [kraken2](apps/kraken2/kraken2.rst)
-  - [krakentools](apps/krakentools/krakentools.rst)
-  - [macs2](apps/macs2/macs2.rst)
-  - [macs3](apps/macs3/macs3.rst)
-  - [masurca](apps/masurca/masurca.rst)
-  - [medaka](apps/medaka/medaka.rst)
-  - [megahit](apps/megahit/megahit.rst)
-  - [meme](apps/meme/meme.rst)
-  - [metaphlan](apps/metaphlan/metaphlan.rst)
-  - [miniasm](apps/miniasm/miniasm.rst)
-  - [minimap2](apps/minimap2/minimap2.rst)
-  - [minipolish](apps/minipolish/minipolish.rst)
-  - [mirdeep2](apps/mirdeep2/mirdeep2.rst)
-  - [mirge3](apps/mirge3/mirge3.rst)
-  - [mothur](apps/mothur/mothur.rst)
-  - [multiqc](apps/multiqc/multiqc.rst)
-  - [nf-core-ampliseq](apps/nf-core-ampliseq/nf-core-ampliseq.rst)
-  - [nf-core-atacseq](apps/nf-core-atacseq/nf-core-atacseq.rst)
-  - [nf-core-bacass](apps/nf-core-bacass/nf-core-bacass.rst)
-  - [nf-core-bamtofastq](apps/nf-core-bamtofastq/nf-core-bamtofastq.rst)
-  - [nf-core-chipseq](apps/nf-core-chipseq/nf-core-chipseq.rst)
-  - [nf-core-detaxizer](apps/nf-core-detaxizer/nf-core-detaxizer.rst)
-  - [nf-core-differentialabundance](apps/nf-core-differentialabundance/nf-core-differentialabundance.rst)
-  - [nf-core-eager](apps/nf-core-eager/nf-core-eager.rst)
-  - [nf-core-fetchngs](apps/nf-core-fetchngs/nf-core-fetchngs.rst)
-  - [nf-core-funcscan](apps/nf-core-funcscan/nf-core-funcscan.rst)
-  - [nf-core-hic](apps/nf-core-hic/nf-core-hic.rst)
-  - [nf-core-mag](apps/nf-core-mag/nf-core-mag.rst)
-  - [nf-core-metatdenovo](apps/nf-core-metatdenovo/nf-core-metatdenovo.rst)
-  - [nf-core-methylseq](apps/nf-core-methylseq/nf-core-methylseq.rst)
-  - [nf-core-nanoseq](apps/nf-core-nanoseq/nf-core-nanoseq.rst)
-  - [nf-core-nanostring](apps/nf-core-nanostring/nf-core-nanostring.rst)
-  - [nf-core-pangenome](apps/nf-core-pangenome/nf-core-pangenome.rst)
-  - [nf-core-proteinfold](apps/nf-core-proteinfold/nf-core-proteinfold.rst)
-  - [nf-core-raredisease](apps/nf-core-raredisease/nf-core-raredisease.rst)
-  - [nf-core-rnafusion](apps/nf-core-rnafusion/nf-core-rnafusion.rst)
-  - [nf-core-rnaseq](apps/nf-core-rnaseq/nf-core-rnaseq.rst)
-  - [nf-core-rnasplice](apps/nf-core-rnasplice/nf-core-rnasplice.rst)
-  - [nf-core-sarek](apps/nf-core-sarek/nf-core-sarek.rst)
-  - [nf-core-scrnaseq](apps/nf-core-scrnaseq/nf-core-scrnaseq.rst)
-  - [nf-core-smrnaseq](apps/nf-core-smrnaseq/nf-core-smrnaseq.rst)
-  - [nf-core-taxprofiler](apps/nf-core-taxprofiler/nf-core-taxprofiler.rst)
-  - [nf-core-viralrecon](apps/nf-core-viralrecon/nf-core-viralrecon.rst)
-  - [orthofinder](apps/orthofinder/orthofinder.rst)
-  - [pandaseq](apps/pandaseq/pandaseq.rst)
-  - [parabricks](apps/parabricks/parabricks.rst)
-  - [pepper_deepvariant](apps/pepper_deepvariant/pepper_deepvariant.rst)
-  - [petitefinder](apps/petitefinder/petitefinder.rst)
-  - [picard](apps/picard/picard.rst)
-  - [plink](apps/plink/plink.rst)
-  - [plink2](apps/plink2/plink2.rst)
-  - [polypolish](apps/polypolish/polypolish.rst)
-  - [prokka](apps/prokka/prokka.rst)
-  - [qiime2](apps/qiime2/qiime2.rst)
-  - [qualimap](apps/qualimap/qualimap.rst)
-  - [raven-assembler](apps/raven-assembler/raven-assembler.rst)
-  - [raxml-ng-mpi](apps/raxml-ng-mpi/raxml-ng-mpi.rst)
-  - [r-bioinformatics](apps/r-bioinformatics/r-bioinformatics.rst)
-  - [relion](apps/relion/relion.rst)
-  - [rmats2sashimiplot](apps/rmats2sashimiplot/rmats2sashimiplot.rst)
-  - [rnaquast](apps/rnaquast/rnaquast.rst)
-  - [rosettafold2](apps/rosettafold2/rosettafold2.rst)
-  - [rosettafold2na](apps/rosettafold2na/rosettafold2na.rst)
-  - [r-scrnaseq](apps/r-scrnaseq/r-scrnaseq.rst)
-  - [r-shinyngs](apps/r-shinyngs/r-shinyngs.rst)
-  - [salmon](apps/salmon/salmon.rst)
-  - [samtools](apps/samtools/samtools.rst)
-  - [scanpy](apps/scanpy/scanpy.rst)
-  - [scvelo](apps/scvelo/scvelo.rst)
-  - [signalp6](apps/signalp6/signalp6.rst)
-  - [spaceranger](apps/spaceranger/spaceranger.rst)
-  - [spades](apps/spades/spades.rst)
-  - [squid](apps/squid/squid.rst)
-  - [star](apps/star/star.rst)
-  - [subread](apps/subread/subread.rst)
-  - [tmhmm](apps/tmhmm/tmhmm.rst)
-  - [transdecoder](apps/transdecoder/transdecoder.rst)
-  - [trgt](apps/trgt/trgt.rst)
-  - [trim-galore](apps/trim-galore/trim-galore.rst)
-  - [trimmomatic](apps/trimmomatic/trimmomatic.rst)
-  - [trinity](apps/trinity/trinity.rst)
-  - [trinotate](apps/trinotate/trinotate.rst)
-  - [trycycler](apps/trycycler/trycycler.rst)
-  - [vcftools](apps/vcftools/vcftools.rst)
-  - [viennarna](apps/viennarna/viennarna.rst)
+- header: "{fas}`dna;pst-color-primary` 05 Additional resources"
+  content: "Useful resources to learn bioinformatics."
+  link: "resources/index.html"

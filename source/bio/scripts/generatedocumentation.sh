@@ -17,7 +17,7 @@ mkdir -p $repo_path/source/bio/apps
 readarray -t listofmissingfiles < listofmissingfiles.txt
 
 for filename in ${listofmissingfiles[@]}; do
-   inputfolder="/cluster/tufts/biocontainers/modules/$filename"
+   inputfolder="$repo_path/source/bio/modules/$filename"
    filenamesarray=`ls $inputfolder/*`
   
    for eachfile in $filenamesarray
@@ -92,27 +92,46 @@ done
 
 
 # Update index.rst using names of files in source folder
+
 ## Update tutorials
-tutorialfolder="$repo_path/source/bio/tutorials/"
-indexfile="$repo_path/source/bio/index.md"
+tutorialfolder="$repo_path/source/bio/tutorials/doc"
+tutorial_indexfile="$repo_path/source/bio/tutorials/index.md"
 tutorialsarray=`ls $tutorialfolder`
 
-cat <<EOF >>$indexfile
-# Bioinformatics
-This is the user guide for running bioinformatics analysis on Tufts High Performance Computing clusters.
+cat <<EOF >>$tutorial_indexfile
+---
+tags: bioinformatics_tutorials
+---
+# Bioinformatics tutorials
+Training workshops on bioinformatics provided by Tufts Research Technology.
+
+```{gallery-grid}
+:grid-columns: 1
+:grid-rows: 16
+
 EOF
 
-## Update tutorials
-sed -i '/## Bioinformatics tutorials/,$d' $indexfile
-echo "## Bioinformatics tutorials" >> $indexfile
-echo "" >> $indexfile
-
-for eachfile in $tutorialsarray
+for tutorial in $tutorialsarray
 do
   title=`echo $eachfile | cut -d . -f 1 |sed 's/_/ /g'`
-  echo "  - [$title](tutorials/$eachfile)"  >> $indexfile
+  echo "- header: \"{fas}`book;pst-color-primary` $title\"" >>$tutorial_indexfile
+  echo "content: \"XXXX\""  >>$tutorial_indexfile 
+  echo "link: \"tutorials/doc/$tutorial\"" >>$tutorial_indexfile
 done
-echo "" >> $indexfile
+echo "" >> $tutorial_indexfile
+
+
+## Update tutorials
+#sed -i '/## Bioinformatics tutorials/,$d' $indexfile
+#echo "## Bioinformatics tutorials" >> $indexfile
+#echo "" >> $indexfile
+
+#for eachfile in $tutorialsarray
+#do
+#  title=`echo $eachfile | cut -d . -f 1 |sed 's/_/ /g'`
+#  echo "  - [$title](tutorials/$eachfile)"  >> $indexfile
+#done
+#echo "" >> $indexfile
 
 ## Update workshops
 sed -i '/## Bioinformatics workshops/,$d' $indexfile
@@ -135,14 +154,28 @@ done
 echo "" >> $indexfile
 
 ## Update applications
-sourcefolder="$repo_path/source/bio/apps/"
+#sourcefolder="$repo_path/source/bio/apps/"
 
-filenamesarray=`ls $sourcefolder`
+#filenamesarray=`ls $sourcefolder`
 
-sed -i '/## Bioinformatics applications/,$d' $indexfile
-echo "## Bioinformatics applications" >> $indexfile
-echo "" >> $indexfile
-for eachfile in $filenamesarray
-do
-   echo "  - [$eachfile](apps/$eachfile/$eachfile.rst)" >> $indexfile
-done
+#sed -i '/## Bioinformatics applications/,$d' $indexfile
+#echo "## Bioinformatics applications" >> $indexfile
+#echo "" >> $indexfile
+#for eachfile in $filenamesarray
+#do
+#   echo "  - [$eachfile](apps/$eachfile/$eachfile.rst)" >> $indexfile
+#done
+
+## Add additional resources
+#echo "" >> $indexfile
+#cat <<EOF >> $indexfile
+## Additional resources
+
+#- [Datalab bioinformatics workshop 2024](https://tuftsdatalab.github.io/tuftsWorkshops/2024_workshops/readme/)
+#- [TTS bioinformatics resources](https://it.tufts.edu/bioinformatics)
+#- [Tufts Research Technology Bioinformatics Workshops Series](https://tuftsdatalab.github.io/Research_Technology_Bioinformatics/)
+#- [BEST group bioinformatics workshops](https://best-tufts.github.io/bioinformatics_workshops/)
+
+#> **_NOTE:_** Please note that some of the materials linked above may represent previous years’ content and could contain outdated information. Always verify the relevance and accuracy of the content before applying the techniques in your research projects.
+#EOF
+
