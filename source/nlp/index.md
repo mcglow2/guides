@@ -3,7 +3,10 @@ tags: nlp digital-humanities
 ---
 # Digital Humanities and NLP
 
-Welcome to series of workshops designed to provide you with a robust foundation in Natural Language Processing (NLP) and its related technologies. Eeach session below is crafted to offer practical, hands-on experience. Join us in this learning journey to unlock the full potential of NLP technologies. 
+Welcome to series of workshops designed to provide you with a robust foundation in Natural Language Processing (NLP) and its related technologies. Each session below is crafted to offer practical, hands-on experience. Join us in this learning journey to unlock the full potential of NLP technologies. 
+
+For more information on digital humanities at Tufts, see the link below:
+https://sites.tufts.edu/digitalhumanities
 
 
 ```{gallery-grid}

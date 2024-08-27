@@ -24,7 +24,7 @@ subtrees:
         title: HPC
         subtrees:
           - entries:
-            - glob: hpc/*
+            - glob: hpc/**
 
   - caption: Command Line Interfaces 
     entries:

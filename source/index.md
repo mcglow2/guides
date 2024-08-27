@@ -32,7 +32,7 @@ Welcome! In this collection, you'll discover a variety of resources and tutorial
 
 
 - header: "{fas}`globe;pst-color-text-muted` **<span style='font-size: 0.98em ; color:#4295D0'>Geospatial & GIS</span>**"
-  content: "Get started with Geographic Information Systems (GIS), mapping, remote sensing, and drones to analyze spatial data and create detailed maps."
+  content: "Get started with Geographic Information Systems (GIS), web mapping, cartography, GPS, remote sensing, drones, and ESRI applications." 
   link: "gis/index.html"
 
 - header: "{fas}`book;pst-color-text-muted` **<span style='font-size: 0.98em ; color:#4295D0'>Digital Humanities and NLP</span>**"

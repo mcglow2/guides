@@ -3,9 +3,9 @@ tags: hpc
 ---
 # High Performance Computing (HPC) Cluster
 
-Welcome to Tufts HPC Cluster documentations! 
+Welcome to Tufts HPC Cluster documentation! The High-Performance Computing (HPC) Cluster is available to researchers, faculty, students, and staff in need of large-scale computing.
 
-Visit [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-performance-computing) and [RT Announcements](https://it.tufts.edu/research-technology/announcements) for **IMPORTANT** policy updates.
+Please visit [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-performance-computing) and [RT Announcements](https://it.tufts.edu/research-technology/announcements) for **important** policy updates.
 
 
 ```{gallery-grid}
@@ -13,7 +13,7 @@ Visit [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-perf
 :grid-rows: 16
 
 - header: "{fas}`book;pst-color-primary` HPC Cluster and Storage Access"
-  content: "How to gain access to Tufts HPC cluster and it's storage?"
+  content: "How to gain access to Tufts HPC cluster and storage?"
   link: "Access/index.html"
 
 - header: "{fas}`book;pst-color-primary` HPC Cluster Computing Resources"
@@ -21,7 +21,7 @@ Visit [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-perf
   link: "Compute/index.html"
 
 - header: "{fas}`book;pst-color-primary` HPC Cluster Storage"
-  content: "Understand different usage and limits of Tufts HPC Cluster Storage"
+  content: "Understand different use cases for Tufts HPC Cluster Storage"
   link: "Storage/index.html"
 
 - header: "{fas}`book;pst-color-primary` Slurm - HPC Cluster Scheduler"
@@ -34,4 +34,4 @@ Visit [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-perf
 
 ```
 
->  Get Support - please email tts-research@tufts.edu for all Tufts HPC cluster questions and requests.
+>  **To Get Support:** - please email tts-research@tufts.edu for all Tufts HPC cluster questions and requests.
