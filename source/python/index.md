@@ -26,7 +26,7 @@ Welcome to the Tufts RT Guides Python tutorial hub! Explore a variety of tutoria
   link: "tutorials/0003_python-data-analysis.html"
 
 - header: "{fab}`python;pst-color-primary` 05 Introduction to Geospatial Python"
-  content: "Build your map in R"
+  content: "Build your map using spatial python"
   link: "tutorials/0004-spatial-python.html" 
 
 
