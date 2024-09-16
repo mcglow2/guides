@@ -1,0 +1,20 @@
+name: build-main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-main:
+    runs-on: ubuntu-latest
+    steps:
+      - id: get-url
+        uses: tuftsrt/get-pages-url@develop
+      - id: build-and-deploy
+        uses: tuftsrt/deploy-sphinx@develop
+        with:
+          source-directory: source
+          environment-name: guides
+        env:
+          BASEURL: ${{ steps.get-url.outputs.url }}
