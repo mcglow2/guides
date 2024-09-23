@@ -2,7 +2,7 @@
 html_theme.sidebar_secondary.remove: False
 ---
 
-# Tufts University Research Technology Guides
+# TTS Research Technology Guides
 
 Welcome! In this collection, you'll discover a variety of resources and tutorials to enable research. Whether you're a beginner or seeking to deepen your skills, all materials are asynchronous, allowing you to learn  at your own pace.
 
@@ -51,15 +51,19 @@ Welcome! In this collection, you'll discover a variety of resources and tutorial
 
 <img src="https://tufts.box.com/shared/static/2z09fuil5ub4o7rhp62m2yqk1s8nh948.png" alt="Photo of students at computers in the Data Lab." width="98%" class="center"/>
 
-```{gallery-grid}
-:grid-columns: 1
-:grid-rows: 5
 
-- header: "{fab}`python;pst-color-primary` 01 Getting started with Python"
-  content: "This is beginner’s guide to Python, which is designed to introduce the basic concpet in Python and get you up and running with Python programming. By the end of this tutorial, you'll have Python installed and ready to code."
-  link: "tutorials/0000_Getting_started_with_Python.html"
+## Key Links
+:::{admonition} Check out these other resources and links below!
+:class: tip
+👉 [RT Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu)
+: Introduction of this website
+👉 [Data Lab](https://sites.tufts.edu/datalab/)
+: Introduction of this website
+👉 [GIS at Tufts](https://sites.tufts.edu/gis/)
+: Introduction of this website
+👉 [Bioinformatics](https://it.tufts.edu/bioinformatics)
+: Introduction of this website
+👉 [Digital Humanities](https://sites.tufts.edu/digitalhumanities/)
+: Introduction of this website
+:::
 
-- header: "{fab}`python;pst-color-primary` 02 Intro to Python"
-  content: "This is your first tutorial on Python Programming"
-  link: "tutorials/0001_intro_python.html"
-```
