@@ -1,9 +1,5 @@
 ---
-tags:
-  - r
-  - data-management
-  - data-analysis
-  - visualization
+tags: r data-management data-analysis visualization
 ---
 
 # R
