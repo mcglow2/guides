@@ -55,15 +55,20 @@ Welcome! In this collection, you'll discover a variety of resources and tutorial
 ## Key Links
 :::{admonition} Check out these other resources and links below!
 :class: tip
-👉 [TTS RT Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu) 
-: Learn more about Tufts Technology Services (TTS) Research Technology (RT) team.     
-👉 [Data Lab](https://sites.tufts.edu/datalab/)      
-: Interested in learning more about data for your research or scholarship? Visit the Tufts Data Lab.      
-👉 [GIS at Tufts](https://sites.tufts.edu/gis/)      
-: Interested in Geographic Information Systems (GIS)?      
-👉 [Bioinformatics](https://it.tufts.edu/bioinformatics)      
-: Want to learn more about bioinformatics and computational biology?      
-👉 [Digital Humanities](https://sites.tufts.edu/digitalhumanities/)         
-: Care about classics and the digital humanities? Want to learn about exploring texts? 
+👉 [TTS RT Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu)  
+   Learn more about Tufts Technology Services (TTS) Research Technology (RT) team.
+
+👉 [Data Lab](https://sites.tufts.edu/datalab/)  
+   Interested in learning more about data for your research or scholarship? Visit the Tufts Data Lab.
+
+👉 [GIS at Tufts](https://sites.tufts.edu/gis/)  
+   Interested in Geographic Information Systems (GIS)?
+
+👉 [Bioinformatics](https://it.tufts.edu/bioinformatics)  
+   Want to learn more about bioinformatics and computational biology?
+
+👉 [Digital Humanities](https://sites.tufts.edu/digitalhumanities/)  
+   Care about classics and the digital humanities? Want to learn about exploring texts?  
+
 :::
 
