@@ -54,7 +54,8 @@ Welcome! In this collection, you'll discover a variety of resources and tutorial
 
 ## Key Links
 :::{admonition} Check out these other resources and links below!
-:class: tip
+:class: tip  
+
 👉 [TTS RT Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu)  
    Learn more about Tufts Technology Services (TTS) Research Technology (RT) team.
 
