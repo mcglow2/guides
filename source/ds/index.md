@@ -1,5 +1,5 @@
 ---
-tags: ds
+tags: pathway---intro-to-data-science computational-methods machine-learning
 ---
 # Data Science & Cloud Computing
 
