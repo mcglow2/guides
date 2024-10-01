@@ -1,5 +1,5 @@
 ---
-tags: nlp digital-humanities
+tags: nlp digital-humanities machine-learning python scripting jupyter
 ---
 # Digital Humanities and NLP
 
