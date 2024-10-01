@@ -1,5 +1,5 @@
 ---
-tags: r data-management data-analysis visualization
+tags: r-rstudio data-management data-analysis visualization
 ---
 
 # R
