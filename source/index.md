@@ -56,9 +56,6 @@ Welcome! In this collection, you'll discover a variety of resources and tutorial
 :::{admonition} Check out these other resources and links below!
 :class: tip  
 
-👉 [TTS RT Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu)  
-   Learn more about Tufts Technology Services (TTS) Research Technology (RT) team.
-
 👉 [Data Lab](https://sites.tufts.edu/datalab/)  
    Interested in learning more about data for your research or scholarship? Visit the Tufts Data Lab.
 
@@ -70,6 +67,15 @@ Welcome! In this collection, you'll discover a variety of resources and tutorial
 
 👉 [Digital Humanities](https://sites.tufts.edu/digitalhumanities/)  
    Care about classics and the digital humanities? Want to learn about exploring texts?  
+
+👉 [Drones & GPS Units](https://sites.tufts.edu/datalab/gps-units/)  
+   Are you interested in learning about drones or doing fieldwork where you need GPS units?
+
+👉 [Workshops](https://sites.tufts.edu/datalab/workshops/)  
+   Are you interested in in-person & online Workshops on geospatial technologies, statistics, data science, programming, media & design, digital humanities, and advanced computing? 
+
+👉 [TTS RT Research Technology](https://it.tufts.edu/researchtechnology.tufts.edu)  
+   Learn more about the Tufts Technology Services (TTS) Research Technology (RT) team.
 
 :::
 
