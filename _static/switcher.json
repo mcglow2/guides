@@ -1,0 +1,11 @@
+[
+    {
+        "version": "pub",
+        "url": "https://mcglow2.github.io/guides/",
+        "preferred": true
+    },
+    {
+        "version": "dev",
+        "url": "https://mcglow2.github.io/guides/dev/"
+    }
+]
