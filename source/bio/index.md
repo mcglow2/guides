@@ -1,36 +1,29 @@
 ---
 tags: bioinformatics
 ---
-
-<style>
-h1 { font-size: 2 em; }
-h2 { font-size: 1.5em; }
-h
-</style>
-
 # Bioinformatics
+Welcome to the users guides designed to enhance your understanding and skills in running bioinformatics analysis on Tufts HPC. 
 
-This document provides a comprehensive list of tutorials and workshops related to bioinformatics offered at Tufts. These resources are designed to enhance your understanding and skills in various bioinformatics applications. 
+```{gallery-grid}
+:grid-columns: 1
+:grid-rows: 16
 
-### Datalab Bioinformatics Workshop
-- [Datalab bioinformatics workshop 2024](https://tuftsdatalab.github.io/tuftsWorkshops/2024_workshops/readme/)
+- header: "{fas}`dna;pst-color-primary` 01 Bioinformatics tutorials"
+  content: "Step-by-step guidance on using computational tools and techniques to analyze biological data using HPC."
+  link: "tutorials/index.html"
 
-### TTS Bioinformatics Website Tutorials and Workshops
-- [TTS bioinformatics resources](https://it.tufts.edu/bioinformatics)
-- [Tufts Research Technology Bioinformatics Workshops Series](https://tuftsdatalab.github.io/Research_Technology_Bioinformatics/)
+- header: "{fas}`dna;pst-color-primary` 02 Bioinformatics workshops"
+  content: "Training workshops on bioinformatics provided by Tufts Research Technology."
+  link: "workshops/index.html"
 
-### BEST(Bioinformatics Education and Services at Tufts) Workshops
-- [BEST group bioinformatics workshops](https://best-tufts.github.io/bioinformatics_workshops/)
+- header: "{fas}`dna;pst-color-primary` 03 Reference databases"
+  content: "A set of centrally-maintained bioinformatics reference databases."
+  link: "databases/index.html"
 
-### Specialized Workshops and Tutorials
-- [Introduction to Next Generation Sequencing Bioinformatics](https://tuftsdatalab.github.io/intro-to-ngs-bioinformatics/)
-- [Using AlphaFold 2 on the Tufts HPC Cluster](https://tuftsdatalab.github.io/Intro_To_AlphaFold2/)
-- [Introduction to RNA-seq with Galaxy](https://tuftsdatalab.github.io/intro-to-rnaseq-with-galaxy/)
-- [Running RNA-Seq analysis with nextflow & nf-core](https://tuftsdatalab.github.io/tuftsWorkshops/2024_workshops/nfcore_rnaseq_sp24/00_introduction/)
+- header: "{fas}`dna;pst-color-primary` 04 Bioinformatics applications"
+  content: "Bioinformaitcs applications deployed on Tufts HPC."
+  link: "apps/index.html"
 
-### User guide for running bioinformatics analysis on Tufts HPC
-- [User guide for running bioinformatics analysis on Tufts HPC](https://bioinformaticstuftshpc.readthedocs.io/en/latest/)
-
-## Note
-Please note that some of the materials linked above may represent previous years' content and could contain outdated information. Always verify the relevance and accuracy of the content before applying the techniques in your research projects.          
-**Hint: You can visit the GitHub repository and check the last edit time to determine whether the materials are relatively recent or not.**
+- header: "{fas}`dna;pst-color-primary` 05 Additional resources"
+  content: "Useful resources to learn bioinformatics."
+  link: "resources/index.html"

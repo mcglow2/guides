@@ -1,5 +1,5 @@
 ---
-tags: ds
+tags: data-science computational-methods machine-learning  
 ---
 # Data Science & Cloud Computing
 
