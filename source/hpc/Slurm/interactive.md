@@ -2,7 +2,7 @@
 
 **Particularly good for debugging and working with software GUI.** 
 
-We strongly recommend user check available resources using [hpctools - Tufts HPC Helper Tool](../Compute/hpctools.md) before starting interactive jobs.
+We strongly recommend user check available resources using [hpctools - Tufts HPC Helper Tool](../examples/hpctools.md) before starting interactive jobs.
 
 `$ srun [options] --pty [command]`
 

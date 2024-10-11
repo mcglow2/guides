@@ -1,4 +1,4 @@
-# RStudio from OnDemand
+# RStudio via OnDemand
 
 > Yucheng will have new documentation to replace this one
 

@@ -1,8 +1,8 @@
-# Conda Environment on Tufts HPC
+# Conda Environments
 
 ### Allocate Resources
 
-1. [Start an interactive session](../Slurm/interactive.md) on the cluster on a compute node (execute every time you need to execute/run any programs on the cluster)
+1. [Start an interactive session](../slurm/interactive.md) on the cluster on a compute node (execute every time you need to execute/run any programs on the cluster)
 
    1. Determine if you need GUI forwarding
    2. Determine if you need GPU access

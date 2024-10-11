@@ -1,8 +1,12 @@
 # GPU
 
-GPUs (Graphics Processing Units) are essential for tasks requiring high parallelism, such as deep learning and simulations. Tufts HPC cluster offers various types of NVIDIA GPUs in different partitions.
+GPUs (Graphics Processing Units) are essential for tasks requiring high parallelism, such as deep learning and simulations.
+Tufts HPC cluster offers various types of NVIDIA GPUs in different partitions.
 
 __NVIDIA GPUs__ are available in `gpu` and `preempt` partitions
+
+
+
 
 **Request GPU resources with `--gres`. See details below.**
 

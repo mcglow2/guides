@@ -1,11 +1,8 @@
-# Slurm
+# Slurm Job Scheduler
 
-What is Slurm?
-
-Slurm is an open source, fault-tolerant, and highly scalable cluster management and job scheduling system for large and small Linux clusters. 
-
-Here are some tips on how to work with Slurm to get your work done on Tufts HPC cluster:
-
+The HPC cluster uses the Slurm Job Scheduler to assign users jobs to compute nodes.  Jobs are allocated based on the 
+requested resources and the submitting users priority.  We use the FairShare algorithm which adjusts priority to 
+balance usage across of our users.
 
 ```{gallery-grid}
 :grid-columns: 1

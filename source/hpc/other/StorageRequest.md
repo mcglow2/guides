@@ -1,4 +1,4 @@
-# Tufts HPC Cluster Storage Request
+# HPC Cluster Storage Request
 
 ### Prerequisites:
 

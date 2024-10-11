@@ -6,7 +6,7 @@ It is easy to submit a batch job.
 
 You will need a slurm batch job script which contains <u>all the resource requirements</u> and the <u>commands to run your program</u>. 
 
-We strongly recommend user check available resources using [hpctools - Tufts HPC Helper Tool](../Compute/hpctools.md) before submitting batch jobs.
+We strongly recommend user check available resources using [hpctools - Tufts HPC Helper Tool](../examples/hpctools.md) before submitting batch jobs.
 
 Please see examples below:
 
@@ -24,11 +24,11 @@ Write a batch submission script e.g. **mycpujob.sh**
 #SBATCH --mem=2g  #requesting 2GB of RAM total for the number of cpus you requested
 #SBATCH --output=MyJob.%j.%N.out  #saving standard output to file, %j=JOBID, %N=NodeName
 #SBATCH --error=MyJob.%j.%N.err   #saving standard error to file, %j=JOBID, %N=NodeName
-#SBATCH --mail-type=ALL    #email optitions
+#SBATCH --mail-type=ALL    #email options
 #SBATCH --mail-user=Your_Tufts_Email@tufts.edu
 
 #[commands_you_would_like_to_exe_on_the_compute_nodes]
-# have a clean start. purge all loaded modules in curren environment
+# have a clean start. purge all loaded modules in current environment
 module purge
 # for example, running a python script 
 # load the module so the correct version python is available to you

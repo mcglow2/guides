@@ -4,20 +4,20 @@
 
 ### Partitions
 
-**Public Partitons:**
+**Public Partitions:**
 
-All users have equal access to the following public partitons. Job priorities are under the governance of Slurm Fairshare algorithm.
+All users have equal access to the following public partitions. Job priorities are under the governance of Slurm Fairshare algorithm.
 
 - **batch***: The default partition for standard jobs that do not require any special hardware or configurations. CPU only. Provides memory (RAM) up to 500GB.
 - **gpu**: Designated for jobs that require GPU resources. No CPU only jobs allowed.
 - **interactive**: Intended for CPU only interactive jobs, which are typically shorter in duration and smaller in resource requirement. 
 - **largemem**: For CPU only jobs which require up to 1TB of memory (RAM).
-- **mpi**: Duplicate set of CPU resources as batch parititon. Mainly for jobs that use the Message Passing Interface (MPI) for parallel computing across multiple nodes. 
+- **mpi**: Duplicate set of CPU resources as batch partition. Mainly for jobs that use the Message Passing Interface (MPI) for parallel computing across multiple nodes. 
 - **preempt**: Consists most resources on HPC cluster (CPU and GPU, public and contrib nodes). Jobs submitted to preempt partition has lower priority and can be preempted by contrib node owners' higher priority jobs.
 
 To get a full inventory of available resources and node specs, go to [**OnDemand**](https://ondemand.pax.tufts.edu) `Misc` --> `Inventory ` 
 
-From comamnd line, use the following command to check what partitions you have access to:
+From command line, use the following command to check what partitions you have access to:
 
 ```
 $ sinfo
@@ -45,7 +45,7 @@ preempt         7-00:00:00
 
 ### Resource Usage limit
 
-Resouce usage limits DO NOT apply to lab partitions.
+Resource usage limits DO NOT apply to lab partitions.
 
 **This limit is subject to change to best utilize cluster resources.**
 

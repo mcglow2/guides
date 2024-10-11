@@ -2,7 +2,7 @@
 
 
 
-Utilize  [hpctools - Tufts HPC Helper Tool](../Compute/hpctools.md) to monitor active jobs
+Utilize  [hpctools - Tufts HPC Helper Tool](../examples/hpctools.md) to monitor active jobs
 
 ### Check Active Jobs
 

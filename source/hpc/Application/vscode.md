@@ -1,4 +1,4 @@
-# Using VSCode on Tufts HPC Cluster - Remote Tunnels
+# VSCode
 
 In this walkthrough, we'll examine how to set up a tunnel between the Cluster and your local installation of VSCode. This can be useful when you need to create, edit and publish sophisticated codebases on the Cluster. We can also use this method for running `Jupyter Notebooks` from the Cluster.  
 
@@ -34,7 +34,7 @@ Start a tmux session on Tufts HPC cluster in any shell environment on the login 
 
 - Allocate resources on HPC Cluster
 
-Allocate appropriate amount of resources you need for your session with `srun` to start an [interactive session](../Slurm/interactive.md) inside the tmux session.
+Allocate appropriate amount of resources you need for your session with `srun` to start an [interactive session](../slurm/interactive.md) inside the tmux session.
 
 > e.g. `srun -p interactive -n 2 --mem=4g --pty bash`
 
@@ -46,6 +46,6 @@ Then configure and start tunnel:
 
 `code tunnel`
 
-You will need to follow any Two Factor Authenitcation steps from Github to proceed. Once you have done so, copy the link given into your local browser. You should now see a VSCdoe window running from the browser. Feel free to connect any directory by clicking on the file explorer on the left. Currently, VSCode does not support Python environments to be ported through the remote tunnel. Read more [here](https://github.com/microsoft/vscode-python/issues/21557).
+You will need to follow any Two Factor Authentication steps from Github to proceed. Once you have done so, copy the link given into your local browser. You should now see a VSCode window running from the browser. Feel free to connect any directory by clicking on the file explorer on the left. Currently, VSCode does not support Python environments to be ported through the remote tunnel. Read more [here](https://github.com/microsoft/vscode-python/issues/21557).
 
 You can either use the VSCode server browser tab from there, or you can go back to your locally installed VSCode. You can find your active tunnels in "Remote Explorer".

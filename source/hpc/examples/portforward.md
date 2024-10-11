@@ -20,7 +20,7 @@ $ module load tmux
 $ tmux new -s mynewsession
 ```
 
-Further details on [Tmux](tmux.md)
+Further details on [Tmux](../Application/tmux.md)
 
 #### 3. Start interactive session 
 
@@ -34,7 +34,7 @@ $ module load cuda/12.2
 $ module load anaconda/2021.05
 ```
 
-More instructions on requesting resources can be find in the [Slurm](../Slurm/index.md) section
+More instructions on requesting resources can be find in the [Slurm](../slurm/index.md) section
 
 You will need to activate the conda env you are interested in using and create a ipykernel for it. To continue, enter the following: 
 

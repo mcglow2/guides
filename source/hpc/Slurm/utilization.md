@@ -47,4 +47,4 @@ NOTE: there are more format options, see [sacct](https://slurm.schedmd.com/sacct
 
 No worries.
 
-Utilize [hpctools - Tufts HPC Helper Tool](../Compute/hpctools.md) on the HPC cluster to find all of your jobs since a certain date.
+Utilize [hpctools - Tufts HPC Helper Tool](../examples/hpctools.md) on the HPC cluster to find all of your jobs since a certain date.

@@ -123,4 +123,4 @@
 
 ### Private Modules
 
-Users can create [Private Modules](privatemodule.md) for the software installed locally.
+Users can create [Private Modules](../examples/privatemodule.md) for the software installed locally.

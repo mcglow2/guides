@@ -1,3 +1,0 @@
-# Globus
-
-Coming Soon!
