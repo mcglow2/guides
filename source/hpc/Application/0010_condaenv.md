@@ -1,5 +1,9 @@
 # Conda Environments
 
+Conda is a software package manager similar to PIP that allows users to easily install software not already available on the cluster.
+It is designed to install software into user space and does not require administrative permissions.  This makes it ideal for use on shared
+HPC systems.
+
 ### Allocate Resources
 
 1. [Start an interactive session](../slurm/interactive.md) on the cluster on a compute node (execute every time you need to execute/run any programs on the cluster)

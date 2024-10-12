@@ -5,6 +5,11 @@ Applications installed globally on Tufts HPC cluster are managed by environment 
 
 If you dont see a common application used in your scientific domain please reach out to us about having it installed.
 
+```{attention}
+Some of the software available on the HPC Cluster is not **NOT FREE/OPEN SOURCE SOFTWARE**.  Compliance with applicable license agreements is the responsibility of the users running the software on the 
+cluster, failure to comply with license agreements is a violation of our Acceptable Use Policy.
+```
+
 ```{gallery-grid}
 :grid-columns: 1
 :grid-rows: 16

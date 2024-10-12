@@ -43,8 +43,6 @@ Display job detailed accounting data:
 
 NOTE: there are more format options, see [sacct](https://slurm.schedmd.com/sacct.html)
 
-**Don't know your job IDs or can't find them?**
-
-No worries.
-
-Utilize [hpctools - Tufts HPC Helper Tool](../examples/hpctools.md) on the HPC cluster to find all of your jobs since a certain date.
+```{Hint}
+If you don't know your job IDs or can't find them.  Utilize [hpctools - Tufts HPC Helper Tool](../examples/hpctools.md) on the HPC cluster to find all of your jobs since a certain date.
+```

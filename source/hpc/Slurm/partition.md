@@ -1,4 +1,5 @@
 # Tufts HPC Partitions
+<!--This is where QOS and Reservations will also go-->
 
 - Tufts HPC cluster resources are grouped into different partitions. A partition is a logical collections of nodes that comprise different hardware resources and limits based on **functionality** and **priority** levels.
 
