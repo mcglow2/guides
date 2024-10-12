@@ -5,7 +5,7 @@ tags: hpc research-storage-cluster data-management computational-methods softwar
 
 Welcome to Tufts HPC Cluster documentation! The High-Performance Computing (HPC) Cluster is available to researchers, faculty, students, and staff in need of large-scale computing.
 
-The High-Performance Computing (HPC) Cluster is available to researchers, faculty, students, and staff in need of large-scale computing. Tufts Linux HPC Cluster is comprised of Penguin, Lambda, and Dell hardware running the RedHat Linux operating system. Nodes are interconnected via a 100Gbps ethernet network.
+The High-Performance Computing (HPC) Cluster is available to researchers, faculty, students, and staff in need of large-scale computing. Tufts Linux HPC Cluster is comprised of over 100 high-powered servers running the RedHat Linux operating system. Nodes are interconnected via a 100Gbps ethernet network.
 
 Tufts HPC is located in the Massachusetts Green High Performance Compute Center. The MGHPCC is an intercollegiate high-performance computing facility whose computing and storage resources serve a user community of more than 20,000 faculty and student researchers and educators, supported by on-campus research teams. 
 
