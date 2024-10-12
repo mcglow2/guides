@@ -5,7 +5,7 @@ The HPC cluster is available for use by all Tufts Faculty, Staff and Students.
 Faculty with a Tufts University appointment can request additional storage for use by their lab.
 
 ## Acceptable Use Policy
-Tufts HPC cluster is an "institution system" and its acceptable use is governed by the university wide ["Use of Information Systems Policy"](https://it.tufts.edu/sites/default/files/uploaded-files/2018-09/use-institutional_systems_2018-06-18_0.pdf).  
+Tufts HPC cluster is an "institutional systems" and its acceptable use is governed by the university wide ["Use of Information Systems Policy"](https://it.tufts.edu/sites/default/files/uploaded-files/2018-09/use-institutional_systems_2018-06-18_0.pdf).  
 
 ## Data
 No restricted data allowed on Tufts HPC cluster

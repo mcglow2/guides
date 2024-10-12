@@ -94,7 +94,10 @@ html_theme_options = {
     "icon_links": icon_links,
     "logo": {"text": project},
     "navbar_align": "content",
-    "navigation_depth": 1,
+    "navigation_depth": {
+        "**": 1,
+        "hpc/*": 2,
+    },
     "navigation_with_keys": False,
     "search_bar_text": "",
     "secondary_sidebar_items": [

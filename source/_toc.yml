@@ -24,28 +24,39 @@ subtrees:
       - file: hpc/index.md
         title: HPC
         subtrees:
-          - entries:
+          - hidden: True
+            entries:
             - file: hpc/i*x.md
             - file: hpc/terminology.md
               title: What is HPC
             - file: hpc/Access/index.md
               title: Using the HPC Cluster
-              entries:
-                - glob: hpc/Access/*
+              subtrees:
+                - hidden: True
+                  entries:
+                    - glob: hpc/Access/*
             - file: hpc/slurm/index.md
-              entries:
-                - glob: hpc/slurm/*
+              subtrees:
+                - hidden: True
+                  entries:
+                  - glob: hpc/slurm/*
             - file: hpc/Compute/index.md
               title: Resources Available
-              entries:
-                - glob: hpc/Compute/*
+              subtrees:
+                - hidden: True
+                  entries:
+                  - glob: hpc/Compute/*
             - file: hpc/Application/index.md
-              entries:
-                - glob: hpc/Application/*
+              subtrees:
+                - hidden: True
+                  entries:
+                  - glob: hpc/Application/*
             - file: hpc/examples/index.md
               title: Examples and Tutorials
-              entries:
-                - glob: hpc/examples/*
+              subtrees:
+                - hidden: True
+                  entries:
+                  - glob: hpc/examples/*
             - file: hpc/policy.md
               title: Policy
             - file: hpc/help.md

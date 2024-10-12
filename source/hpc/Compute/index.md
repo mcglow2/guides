@@ -19,7 +19,7 @@ Available computing resources for Tufts HPC users and where to find them!
 
 - header: "{fas}`book;pst-color-primary` HPC Partitions"
   content: "Partitions on Tufts HPC cluster and their purposes"
-  link: "partition.html"
+  link: "../slurm/partition.html"
 
 - header: "{fas}`book;pst-color-primary` GPU Resources"
   content: "Available GPU resources on Tufts HPC cluster and how to request them"
@@ -27,7 +27,7 @@ Available computing resources for Tufts HPC users and where to find them!
 
 - header: "{fas}`book;pst-color-primary` hpctools"
   content: "Utilize a command line tool - hpctools - to help you find available resource on Tufts HPC cluster"
-  link: "hpctools.html"
+  link: "../examples/hpctools.html"
 
 ```
 
