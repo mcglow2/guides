@@ -4,7 +4,7 @@
 
 - An active Tufts HPC cluster account.
 - Only a **Tufts University faculty** can be the PI of a HPC cluster research storage share.
-- Please review the updated storage policy changes on [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-performance-computing) and [RT Announcements](https://it.tufts.edu/research-technology/announcements)  before submiting the storage request.
+- Please review the updated storage policy changes regarding fees on [Research Technology (RT) Website HPC page](https://it.tufts.edu/high-performance-computing) and [RT Announcements](https://it.tufts.edu/research-technology/announcements)  before submiting the storage request.
 - No restricted data shall be stored on Tufts HPC cluster storage.
 
 ### Check if you already access to a research storage share
@@ -17,12 +17,11 @@
 
 ### New Storage Request
 
-- To have a new cluster research storage share created for your group, submit a [Cluster Storage Request](https://tufts.qualtrics.com/jfe/form/SV_5bUmpFT0IXeyEfj), the link is also availabe on [Research Technology website](https://it.tufts.edu/high-performance-computing) 
+- To have a new cluster research storage share created for your group, submit a [Cluster Storage Request](https://tufts.qualtrics.com/jfe/form/SV_5bUmpFT0IXeyEfj).
 - New storage over 1TB may require a consultation.
 
 ### Existing Storage Increase
 
-- Submit a [Cluster Storage Request](https://tufts.qualtrics.com/jfe/form/SV_5bUmpFT0IXeyEfj) for an increase, the link is also availabe on [Research Technology website](https://it.tufts.edu/high-performance-computing) 
+- Submit a [Cluster Storage Request](https://tufts.qualtrics.com/jfe/form/SV_5bUmpFT0IXeyEfj) for an increase.
 - No more than 5TB shall be granted within a 12-month interval per updated policy.
 - Increase over 1TB may require a consultation.
-

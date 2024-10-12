@@ -1,26 +1,11 @@
 # OnDemand - Tufts HPC Cluster Web Interface
 
-### Prerequisites
+```{important}
+   VPN - Off-campus access from non-Tufts Network please connect to [Tufts VPN](https://access.tufts.edu/vpn)
+```
 
-Active Cluster Account
-
-VPN
-
-- Off-campus Non-Tufts Network please connect to [Tufts VPN](https://access.tufts.edu/vpn)
-
-2FA
-
-- DUO is needed on Tufts Network (not needed for [**OnDemand**](https://ondemand.pax.tufts.edu), https://ondemand.pax.tufts.edu)
-
-- DUO is needed when using FastX11 from  [__OnDemand__](https://ondemand.pax.tufts.edu)
-
-Preferred browser: **Chrome or FireFox**
-
-
-
-### Easy HPC Access with OnDemand
-
-Go to [**OnDemand**](https://ondemand.pax.tufts.edu), https://ondemand.pax.tufts.edu
+OnDemand provides easy access to the HPC environment using a web browser.
+Start by going to [**OnDemand**](https://ondemand.pax.tufts.edu), https://ondemand.pax.tufts.edu using **Chrome or FireFox**
 
 
 

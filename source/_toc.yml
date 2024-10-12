@@ -35,17 +35,17 @@ subtrees:
                 - hidden: True
                   entries:
                     - glob: hpc/Access/*
+            - file: hpc/Compute/index.md
+              title: Computing Resources
+              subtrees:
+                - hidden: True
+                  entries:
+                  - glob: hpc/Compute/*
             - file: hpc/slurm/index.md
               subtrees:
                 - hidden: True
                   entries:
                   - glob: hpc/slurm/*
-            - file: hpc/Compute/index.md
-              title: Resources Available
-              subtrees:
-                - hidden: True
-                  entries:
-                  - glob: hpc/Compute/*
             - file: hpc/Application/index.md
               subtrees:
                 - hidden: True

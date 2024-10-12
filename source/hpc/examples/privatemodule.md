@@ -2,17 +2,14 @@
 
 
 
-> Users on Tufts HPC cluster can create their own module files and load their own private modules to make using locally installed software easier. 
->
-> Here is **HOW** to set it up and use private modules
+Users on Tufts HPC cluster can create their own module files and load their own private modules to make using locally installed software easier. 
 
 
-
-### 1. Have the Software Installed
+### 1. Install your software
 
 After installation, make sure you know the path to the software. Especially the`bin` `lib` or `lib64` `include` and `man` if there are any. 
 
-### 2. Create Your Module File
+### 2. Create your module file
 
 The **location** of the module file is very important! If it's misplaced, your module won't show up. 
 
@@ -26,7 +23,7 @@ The overall structure should be:
 
 `/cluster/home/$USER/privatemodules/mysoftware/v1.0.0`
 
-And now let's work on the content of the file.
+Now let's work on the content of the file.
 
 You can reference/borrow existing module files on the cluster
 
