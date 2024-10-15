@@ -27,7 +27,7 @@ Effective January 1, 2025, installation costs for researcher-purchased compute n
 
 ## Acknowledgement
 
-To acknowledge your use of the clusters, we request that you use the following wording:
+To acknowledge your use of the clusters, we request that you use our [DOI](http://dx.doi.org/10.25833/235d-b074) or the following wording:
 
 The authors acknowledge the Tufts University High Performance Compute Cluster (https://it.tufts.edu/high-performance-computing) which was utilized for the research reported in this paper.
 

@@ -4,6 +4,16 @@ The HPC cluster uses the Slurm Job Scheduler to assign users jobs to compute nod
 requested resources and the submitting users priority.  We use the FairShare algorithm which adjusts priority to 
 balance usage across of our users.
 
+Command Quick Reference
+- **squeue** lists your jobs in the queue
+- **sinfo** lists the state of all computers in the HPC cluster
+- **sbatch** submits batch jobs
+- **sprio** Displays the priorities of pending jobs in the queue
+- **scancel** can be used to cancel jobs
+- **salloc** allocates a compute node for interactive use
+- **sacct** display historical report data for jobs
+- **seff** displays job CPU and Memory efficiency
+
 ```{gallery-grid}
 :grid-columns: 1
 :grid-rows: 16

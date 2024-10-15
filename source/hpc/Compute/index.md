@@ -16,7 +16,7 @@ general idea of what is currently available for use.
 | 9       | GPU          | 2x 32 Cores  | 256GB   | 4x l40       |
 | 25      | MIXED        | MIXED        | MIXED   | MIXED        |
 
-Some systems are only available for all users on the preempt partition.
+Some systems are only available to all users on the preempt partition.
 
 Mixed systems include a limited number of various GPUs including V100, A100, H100 and GH200.
 

@@ -24,11 +24,15 @@ familiarize themselves.
   content: "How to transfer files or data to the HPC Cluster."
   link: "0040_xfer.html"
 
-- header: "{fas}`book;pst-color-primary` 05 Modules"
+- header: "{fas}`book;pst-color-primary` 05 Running jobs using OnDemand or Slurm"
+  content: "Explaination of how to run software on the HPC cluster."
+  link: "0045_brief_slurm.html"
+
+- header: "{fas}`book;pst-color-primary` 06 Modules"
   content: "Explaination of the modules system and how to use it to run software."
   link: "0050_Modules.html"
 
-- header: "{fas}`book;pst-color-primary` 06 Run Hello World example Job"
+- header: "{fas}`book;pst-color-primary` 07 Run Hello World example Job"
   content: "Simple tutorial to get you started with your first HPC Job"
   link: "../examples/helloworld.html"
 

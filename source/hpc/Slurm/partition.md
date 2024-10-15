@@ -46,11 +46,9 @@ preempt         7-00:00:00
 
 ### Resource Usage limit
 
-Resource usage limits DO NOT apply to lab partitions.
-
 **This limit is subject to change to best utilize cluster resources.**
 
-Current Cluster Resource Limit:
+Current Cluster Resource Limits:
 
 >* **Public Partitions** (batch+mpi+largemem+gpu) 
 >
@@ -68,3 +66,6 @@ Current Cluster Resource Limit:
 >
 >    GPU: 20
 
+```{warning}
+Lab partitions may have different resource limits that are more or less restrictive.
+```

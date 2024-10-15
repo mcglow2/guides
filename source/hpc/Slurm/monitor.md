@@ -10,7 +10,7 @@ Active jobs are the jobs in the stage of R (running), PD (pending), or CG (compl
 
 To check your active jobs in the queue:
 
-`$ squeue -u $USER` or `$ squeue -u your_utln`
+`$ squeue --me` or `$ squeue -u your_utln`
 
 ```bash
 [tutln01@cc1gpu001 ~]$ squeue -u $USER
