@@ -8,19 +8,23 @@ balance usage across of our users.
 :grid-columns: 1
 :grid-rows: 16
 
-- header: "{fas}`book;pst-color-primary` Interactive Sessions"
+- header: "{fas}`book;pst-color-primary` 01 Interactive Sessions"
   content: "How to run interactive jobs with cluster resources"
   link: "interactive.html"
 
-- header: "{fas}`book;pst-color-primary` Batch jobs"
+- header: "{fas}`book;pst-color-primary` 02 Batch jobs"
   content: "How to submit batch jobs to the cluster and sample slurm batch job scripts"
   link: "batchjob.html"
 
-- header: "{fas}`book;pst-color-primary` Job Monitoring and Management Commands"
+- header: "{fas}`book;pst-color-primary` 03 Partitions"
+  content: "How to select where your jobs and the resources available to them."
+  link: "monitor.html"
+
+- header: "{fas}`book;pst-color-primary` 04 Job Monitoring and Management Commands"
   content: "How to monitor and manage your active jobs"
   link: "monitor.html"
 
-- header: "{fas}`book;pst-color-primary` Job Resource Utilization"
+- header: "{fas}`book;pst-color-primary` 05 Job Resource Utilization"
   content: "How to check resource utilization of completed jobs: how much memory did the completed job used? how many cores did the completed job utilized?"
   link: "utilization.html"
 

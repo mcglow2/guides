@@ -17,25 +17,25 @@ Please visit [Research Technology (RT) Website HPC page](https://it.tufts.edu/hi
 :grid-columns: 1
 :grid-rows: 16
 
-- header: "{fas}`book;pst-color-primary` HPC Cluster and Storage Access"
+- header: "{fas}`book;pst-color-primary` 01 What is HPC"
+  content: "Brief primer on what HPC is, and the terminology used."
+  link: "terminology.html"
+
+- header: "{fas}`book;pst-color-primary` 02 Using the HPC Cluster"
   content: "How to gain access to Tufts HPC cluster and storage?"
   link: "Access/index.html"
 
-- header: "{fas}`book;pst-color-primary` HPC Cluster Computing Resources"
-  content: "What resources does Tufts HPC cluster have to offer?"
+- header: "{fas}`book;pst-color-primary` 03 Computing Resources"
+  content: "Overview of the computing resources available for use."
   link: "Compute/index.html"
 
-- header: "{fas}`book;pst-color-primary` HPC Cluster Storage"
-  content: "Understand different use cases for Tufts HPC Cluster Storage"
-  link: "Storage/index.html"
+- header: "{fas}`book;pst-color-primary`  04 Slurm Job Scheduler"
+  content: "Description of how to use the scheduler to run jobs on the HPC Cluster"
+  link: "slurm/index.html"
 
-- header: "{fas}`book;pst-color-primary` Slurm - HPC Cluster Scheduler"
-  content: "How to work with SLURM to get your work done?"
-  link: "Slurm/index.html"
-
-- header: "{fas}`book;pst-color-primary` HPC Cluster Applications HOW-TOs"
-  content: "A collection of How-to instructions for the applications installed on Tufts HPC cluster"
-  link: "Application/index.html" 
+- header: "{fas}`book;pst-color-primary` 05 Software Applications"
+  content: "Tutorials on getting started using common software applications on the cluster."
+  link: "Application/index.html"
 
 ```
 

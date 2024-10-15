@@ -22,19 +22,19 @@ Mixed systems include a limited number of various GPUs including V100, A100, H10
 :grid-columns: 1
 :grid-rows: 16
 
-- header: "{fas}`book;pst-color-primary` Terminology Overview"
+- header: "{fas}`book;pst-color-primary` 01 Terminology Overview"
   content: "Understand the terminoloies used accross Tufts HPC cluster documentations"
   link: "../terminology.html"
 
-- header: "{fas}`book;pst-color-primary` HPC Partitions"
+- header: "{fas}`book;pst-color-primary` 02 HPC Partitions"
   content: "Partitions on Tufts HPC cluster and their purposes"
   link: "../slurm/partition.html"
 
-- header: "{fas}`book;pst-color-primary` GPU Resources"
+- header: "{fas}`book;pst-color-primary` 03 GPU Resources"
   content: "Available GPU resources on Tufts HPC cluster and how to request them"
   link: "GPU.html"
 
-- header: "{fas}`book;pst-color-primary` hpctools"
+- header: "{fas}`book;pst-color-primary` 04 hpctools"
   content: "Utilize a command line tool - hpctools - to help you find available resource on Tufts HPC cluster"
   link: "../examples/hpctools.html"
 

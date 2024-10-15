@@ -8,23 +8,27 @@ familiarize themselves.
 :grid-columns: 1
 :grid-rows: 16
 
-- header: "{fas}`book;pst-color-primary` HPC Cluster Account Request"
+- header: "{fas}`book;pst-color-primary` 01 HPC Account Request"
   content: "Create an account to access Tufts HPC Cluster"
-  link: "AccountRequest.html"
+  link: "0010_AccountRequest.html"
 
-- header: "{fas}`book;pst-color-primary` Command Line Interface (CLI) via SSH"
+- header: "{fas}`book;pst-color-primary` 02 Cluster Login (CLI) via SSH"
   content: "Login to Tufts HPC Cluster through CLI using SSH"
-  link: "cli.html"
+  link: "Access/0020_cli.html"
 
-- header: "{fas}`book;pst-color-primary` HPC Storage"
+- header: "{fas}`book;pst-color-primary` 03 HPC Storage"
   content: "Information on HPC storage available"
   link: "0030_storage.html"
 
-- header: "{fas}`book;pst-color-primary` OnDemand - Tufts HPC Cluster Web Interface"
-  content: "Access Tufts HPC cluster and its resources via a browser-based user interface"
-  link: "../examples/ondemand.html"
+- header: "{fas}`book;pst-color-primary` 04 File Transfers"
+  content: "How to transfer files or data to the HPC Cluster."
+  link: "0040_xfer.html"
 
-- header: "{fas}`book;pst-color-primary` Run Hello World example Job"
+- header: "{fas}`book;pst-color-primary` 05 Modules"
+  content: "Explaination of the modules system and how to use it to run software."
+  link: "0050_Modules.html"
+
+- header: "{fas}`book;pst-color-primary` 06 Run Hello World example Job"
   content: "Simple tutorial to get you started with your first HPC Job"
   link: "../examples/helloworld.html"
 
