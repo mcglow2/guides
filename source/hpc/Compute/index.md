@@ -1,5 +1,7 @@
 # Computing Resources
 
+The Tufts HPC Cluster is comprised of various type of CPU and GPU enabled compute nodes.  This table provides a 
+general idea of what is currently available for use.
 
 | Number  | Type         | CPU          | Memory  | GPU          |
 |:--------|:-------------|:-------------|:--------|:-------------|

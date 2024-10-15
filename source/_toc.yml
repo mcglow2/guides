@@ -26,7 +26,6 @@ subtrees:
         subtrees:
           - hidden: True
             entries:
-            - file: hpc/i*x.md
             - file: hpc/terminology.md
               title: What is HPC
             - file: hpc/Access/index.md
