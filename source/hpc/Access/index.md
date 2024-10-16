@@ -24,8 +24,8 @@ familiarize themselves.
   content: "How to transfer files or data to the HPC Cluster."
   link: "0040_xfer.html"
 
-- header: "{fas}`book;pst-color-primary` 05 Running jobs using OnDemand or Slurm"
-  content: "Explaination of how to run software on the HPC cluster."
+- header: "{fas}`book;pst-color-primary` 05 Running your software"
+  content: "Explaination of how to run software on the HPC cluster using OnDemand or Slurm."
   link: "0045_brief_slurm.html"
 
 - header: "{fas}`book;pst-color-primary` 06 Modules"

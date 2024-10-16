@@ -1,9 +1,11 @@
-# Running jobs using OnDemand or Slurm
+# Running your software
 
 There are two ways to run software on the HPC Cluster, OnDemand ( Simplest ) and via SSH ( Most flexible ).  Both 
-utilized the Slurm job scheduler to allocate you resources. 
+utilized the Slurm job scheduler to allocate you resources (CPU, Memory, and GPU if needed) on the compute nodes. 
 We will cover both briefly on this page.  Each is also covered extensively in their own sections  [Slurm Job Scheduler](..
 /slurm/index.md) and [OnDemand](../examples/ondemand.md) .
+
+
 
 ## OnDemand (Simplest)
 
